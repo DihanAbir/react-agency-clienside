@@ -1,0 +1,41 @@
+
+.logo{
+    padding-bottom: 70px;
+}
+.logo img{
+    width: 100px;
+}
+.login-container{
+    margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+form{
+
+    width:400px;
+    margin:0 auto;
+}
+form h5{
+    font-size:25px;
+    font-weight: 600;
+    font-family: shadow;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.googlebtn{
+    padding:6px 60px;
+    border:1px solid rgb(204, 198, 198); 
+    border-radius: 45px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    outline: none;
+}
+
+form p {
+    padding-bottom: 6rem;
+}

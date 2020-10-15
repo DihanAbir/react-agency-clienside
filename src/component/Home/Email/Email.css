@@ -1,0 +1,24 @@
+.text-area-input, .text-area-message{
+    width: 600px;
+    height: 45px;
+    border: 1px solid transparent;
+    outline-style: none;
+    border-radius: 3px;
+}
+.text-area-message{
+    height: 150px!important;
+    width: 600px!important;
+}
+.text-area-input:focus, .text-area-message:focus {
+    border-bottom: 1px solid green;
+}
+.text-area-message{
+    width: 300px;
+    height: 100px;
+    border: none;
+    outline-style: none;
+}
+.email-section{
+    padding: 150px 0px;
+    background-color: #FBD062;
+}

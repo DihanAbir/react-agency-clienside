@@ -1,6 +1,19 @@
 .App {
   text-align: center;
 }
+.profilepic{
+  width:50px;
+  border-radius:50%;
+}
+.identity{
+  margin: 1em;
+  border-radius:15px;
+  padding:10px 25px;
+  background-color: salmon;
+  height: 4em;
+  width:25rem;
+
+}
 
 .App-logo {
   height: 40vmin;

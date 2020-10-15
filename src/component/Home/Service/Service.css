@@ -1,0 +1,11 @@
+.servie-container{
+    height: 35rem;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    border: 1px solid transparent; 
+    border-right: 1px solid green; 
+
+}
+.servie-container:hover{
+    border: 1px solid green;
+}

@@ -1,0 +1,20 @@
+.signinButton{
+    background-color: #0000!important;
+    padding: 20px 30px;
+    color: red;
+}
+
+.logo{
+    justify-content:center;
+    transform: translate(00%, 40%)
+}
+.nev-item {
+    color: black!important;
+    border-bottom: none;
+    transition: 1s ease-in-out;
+}
+
+.nev-item:hover{
+text-decoration: none;
+border-bottom: 1px solid gray;
+}

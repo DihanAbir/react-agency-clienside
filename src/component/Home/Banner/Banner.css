@@ -1,0 +1,5 @@
+.banner{
+    background-color: rgba(241, 204, 38, 0.918);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+}

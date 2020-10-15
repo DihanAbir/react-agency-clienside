@@ -1,0 +1,13 @@
+.details{
+    background-color: rgb(237, 239, 241);
+}
+.list-name{
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+.list-name:hover{
+    color: rgb(11, 165, 45);
+    text-decoration: none;
+}
