@@ -4,7 +4,7 @@ import './NoMatch.css';
 
 const NoMatch = () => {
     return (
-        <div className="bannersection">
+        <div className="bannersection1">
             <div>   
             <h3>The Page is not found! </h3>
             <h1>404 ERROR!!</h1>
