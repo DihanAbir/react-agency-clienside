@@ -12,12 +12,12 @@ const BannerSection = () => {
     return (
 
         <div className="row bannersection">
-            <div className="col-md-6  p-5">
+            <div className="col-6  p-5">
                 <h1>Let's Grow Your Brand To The Next Level</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati officia in temporibus asperiores optio.</p>
                 <a href="HireUs" className="btn btn-danger">Hire Use</a>
             </div>
-            <div className="col-md-6">
+            <div className="col-6">
                 <div className="img">
                     <img className="img-fluid" src={banner} alt=""/>
                 </div>
