@@ -38,13 +38,13 @@ const Service = (props) => {
 
     return (
         
-            <div className=" p-2 container">
+            <div className=" p-2 my-5 container">
                     <h1 className="text-center">Privide Awesone <span className="text-success">Services</span></h1>
                 <div className="row">
                     {
                         services.map(Singleservice =>
                             <Link  to="/user-deshboard" onClick={() =>handlerService(Singleservice)} className="col-md-4 mt-5" >
-                                <div className="p-5 rounded text-center servie-container">
+                                <div className="p-3 rounded text-center servie-container">
                                     <img className="img-fluid" src={require(`../../../images/icons/${Singleservice.image}.png`)} alt=""/>
                                     <h6 className='pt-5 pb-4'>{Singleservice.title}</h6>
                                     <p>{Singleservice.description}</p>

@@ -24,7 +24,7 @@ const Email = () => {
             </form>
         </div>
       </div>
-      <h2 className="text-center my-4">Copyright <span className="text-danger">Dihan Abir</span> 2020</h2>
+      <p fixed="bottom" className="pt-5 m-auto my-4">Copyright <span className="text-danger">Dihan Abir</span> 2020</p>
     </div>
   );
 };

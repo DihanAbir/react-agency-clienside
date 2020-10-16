@@ -24,7 +24,7 @@ const Review = () => {
 
     const handlerReview = () =>{
         const newReview = { ...loggedInUser, description, name};
-        fetch("http://localhost:5000/addReview",{
+        fetch("https://young-anchorage-57844.herokuapp.com/addReview",{
             method: "POST",
             headers: {'Content-type':'application/json'},
             body: JSON.stringify(newReview)

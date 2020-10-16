@@ -1,0 +1,22 @@
+.bannersection{
+    height: 90vh;
+    align-items: center;
+    background-color: rgba(241, 204, 38, 0.918);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    display: grid;
+    place-items: center;
+}
+
+h2{
+    color: rgb(73, 144, 224);
+}
+
+.imoji{
+    font-size: 10rem;
+}
+
+.goHomeButton{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}

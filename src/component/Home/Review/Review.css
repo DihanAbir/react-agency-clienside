@@ -4,6 +4,18 @@
     overflow: hidden;
     height: 20rem;
 }
+
+.review-carosel{
+    background-color: salmon;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 15rem;
+    width: 18rem;
+}
+.review-carosel img{
+    border-radius:50%;
+    height: 5rem;
+}
 .review-container{
     background-color: rgb(225, 226, 231);
 }

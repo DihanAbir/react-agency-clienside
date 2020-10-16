@@ -19,7 +19,7 @@ const Login = (props) => {
                     <img className="img-fluid" src={logo} alt=""/>
                 </div>
                 <br></br>
-                <form className="form"  action="">
+                <form className="form border"   action="">
                     <h5>LOGIN WITH</h5>
                     
                     <p>Don't have a account? <Link onClick={handlerGoogleAuth}>Create a new account</Link> </p>
@@ -27,7 +27,7 @@ const Login = (props) => {
                     <button className="mt-5 googlebtn"   onClick={handlerGoogleAuth}>Continue with Google</button>
             </div>
 
-            <Link to="/user-deshboard" className="btn btn-danger">go</Link>
+            <Link to="/user-deshboard" className="btn btn-danger m-3">Redirect Page</Link>
             <Link to="/" className="btn btn-danger">home</Link>
             
         </div>

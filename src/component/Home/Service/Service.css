@@ -1,11 +1,17 @@
 .servie-container{
-    height: 35rem;
+    height: 25rem;
     overflow: hidden;
     transition: 0.3s ease-in-out;
     border: 1px solid transparent; 
     border-right: 1px solid green; 
-
+    box-shadow: -10px -10px 25px -20px rgba(57,219,57,1);
 }
 .servie-container:hover{
     border: 1px solid green;
+    transform: scale(1.1);
+    
+    box-shadow: none;
+}
+.servie-container img{
+    height: 100px;
 }

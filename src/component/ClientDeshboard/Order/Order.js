@@ -27,7 +27,7 @@ const Order = () => {
 
     const handlerOrder = () =>{
         const newOrder = {...loggedInUser,serviceState, description, title};
-        fetch("http://localhost:5000/addOrder",{
+        fetch("https://young-anchorage-57844.herokuapp.com/addOrder",{
             method: "POST",
             headers: {'Content-type':'application/json'},
             body: JSON.stringify(newOrder)

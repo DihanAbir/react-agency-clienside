@@ -7,7 +7,7 @@ const Review = () => {
 
     const [review, setReview] = useState([]);
     useEffect(()=>{
-       fetch('http://localhost:5000/review') 
+       fetch('https://young-anchorage-57844.herokuapp.com/review') 
         .then(res => res.json())
         .then(data => setReview(data))
 
@@ -17,18 +17,16 @@ const Review = () => {
 
 
     return (
-        <div className="review-container container">
+        <div className="review-container container mt-5">
             <h3 className="text-center text-black pt-5 my-5">Clients <span
              className="text-success">Feedbacks</span></h3>
             <Carousel itemsToShow={3} showArrows={false} enableAutoPlay={true} autoPlaySpeed={3000}  className="py-5 carousel-section">
 
-                {review.map(item => <div className="text-center p-3 carousel" key={item._id}>
+                {review.map(item => <div className="text-center p-3 carousel review-carosel" key={item._id}>
                     <img className="img-fluid" src={item.photoURL} alt=""/>
-                    <p>{item.name}</p>
-                    <p> {item.description}</p>
+                    <h5 className="text-white">{item.name}</h5>
+                    <h6> {item.description}</h6>
                 </div>)}
-
-
 
             </Carousel>
         </div>
