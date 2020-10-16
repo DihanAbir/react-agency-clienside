@@ -13,7 +13,7 @@ const Review = () => {
 
     }, [])
 
-    // console.log(review)
+    console.log(review)
 
 
     return (
@@ -26,6 +26,7 @@ const Review = () => {
                     <img className="img-fluid" src={item.photoURL} alt=""/>
                     <h5 className="text-white">{item.name}</h5>
                     <h6> {item.description}</h6>
+                    <p>{item.review}</p>
                 </div>)}
 
             </Carousel>

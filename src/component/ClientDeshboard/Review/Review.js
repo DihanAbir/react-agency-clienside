@@ -12,6 +12,7 @@ const Review = () => {
     const [serviceState, setServiceState, loggedInUser, setLoggedInUser] = useContext(userContext);
     const [name, setName] = useState();
     const [description, setDescription] = useState();
+    const [review, setReview] = useState();
 
     const namechange = (e) => {
         const name = e.target.value;
@@ -23,7 +24,7 @@ const Review = () => {
     }
 
     const handlerReview = () =>{
-        const newReview = { ...loggedInUser, description, name};
+        const newReview = { ...loggedInUser, description, name, review};
         fetch("https://young-anchorage-57844.herokuapp.com/addReview",{
             method: "POST",
             headers: {'Content-type':'application/json'},
@@ -41,7 +42,7 @@ const Review = () => {
             <form method="POST" action="/addReview" className="form-order" onSubmit={handleSubmit(onSubmit)}>
                 <input className="text-area-input  my-2"  name="name" onBlur={ namechange } placeholder="Your Name " ref={register} /><br></br>
                 <input className="text-area-input  my-2"  name="Company Name" onBlur={ descriptionchange } placeholder="Company Name" ref={register} /><br></br>
-                <textarea className="text-area-message  my-2" name="description" placeholder="Description"></textarea><br></br>
+                <textarea className="text-area-message  my-2" name="description" onBlur={ (e) => setReview(e.target.value) }placeholder="Description"></textarea><br></br>
             
                 <button type="submit" onClick={handlerReview} className="mb-5 btn-main"> submit</button>
             </form>
